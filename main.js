@@ -1,13 +1,18 @@
-function getFirstName(first) {
-  return first.firstName
+function getFirstName(person) {
+  return person.firstName
 }
 
-function getLastName(last){
-  return last.lastName
+function getLastName(person){
+  return person.lastName
 }
 
-function getFullName(full){
-  return full.fullName
+function getFullName(person){
+  return person.firstName + " " + person.lastName
+}
+
+function setFirstName(person, name){
+  person.firstName = name
+  return person
 }
 
 
