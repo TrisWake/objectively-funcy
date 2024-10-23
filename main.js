@@ -1,7 +1,14 @@
+function getFirstName(first) {
+  return first.firstName
+}
 
+function getLastName(last){
+  return last.lastName
+}
 
-
-
+function getFullName(full){
+  return full.fullName
+}
 
 
 
